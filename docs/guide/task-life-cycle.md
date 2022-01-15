@@ -30,9 +30,15 @@ Các phiên bản phát hành
 
 ### 3. Phát triển
 
-Issue: Open > Analysis > Reviewing > Close
+Issue: 
+```
+Open > Analysis > Reviewing > Close
+```
 
-Pull request: Open > In progress > Reviewing > Merged > Work > Testing > Staging > Testing > Production > Testing > Close
+Pull request: 
+```
+Open > In progress > Reviewing > Merged > Work > Testing > Staging > Testing > Production > Testing > Close
+```
 
 #### Developer
 
