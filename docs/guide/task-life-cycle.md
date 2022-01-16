@@ -32,7 +32,7 @@ Các phiên bản phát hành
 
 Issue: 
 ```
-Open > Analysis > Reviewing > Close
+Open > Analysis > Reviewing > In progress > Close
 ```
 
 Pull request: 
