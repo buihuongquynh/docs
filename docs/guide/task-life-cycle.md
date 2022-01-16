@@ -34,11 +34,11 @@ Issue:
 ```
 Open > Analysis > Reviewing > In progress > Close
 ```
-Open: Task cần được nhận làm.
+Open: Task cần được nhận làm. Người được gán thực sự làm việc sẽ chuyển trạng thái tiếp theo.
 
-Analysis: Task đang được phân tích bởi người nhận.
+Analysis: Task đang được phân tích bởi người nhận. Phân tích xong vấn đề. Điền thời gian bỏ ra để đánh giá bằng label và chuyển tiếp cho leader
 
-Reviewing: Phân tích đang cần comfirm xác nhận bởi lead (bắt buộc)
+Reviewing: Phân tích đang cần comfirm xác nhận bởi người nắm rõ vấn đề trong team (bắt buộc). Sau khi review chuyển lại cho người phân tích và đặt trạng thái về Open.
 
 In progress: Task đang làm (có link với pull request)
 
@@ -50,7 +50,7 @@ In progress > Reviewing > Merged > Work > Testing > Staging > Testing > Producti
 ```
 In progress: Pull request đang mở để làm.
 
-Reviewing: Đang đợi review
+Reviewing: Đang đợi review. Yêu cầu được approval bởi các lead.
 
 Merged: Đã được merged
 
