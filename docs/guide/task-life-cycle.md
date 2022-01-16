@@ -34,29 +34,32 @@ Issue:
 ```
 Open > Analysis > Reviewing > In progress > Close
 ```
+Open: Task cần được nhận làm.
+
+Analysis: Task đang được phân tích bởi người nhận.
+
+Reviewing: Phân tích đang cần comfirm xác nhận bởi lead (bắt buộc)
+
+In progress: Task đang làm (có link với pull request)
+
+Close: Task đã hoàn thành (các linkings đã Close)
 
 Pull request: 
 ```
-Open > In progress > Reviewing > Merged > Work > Testing > Staging > Testing > Production > Testing > Close
+In progress > Reviewing > Merged > Work > Testing > Staging > Testing > Production > Testing > Close
 ```
+In progress: Pull request đang mở để làm.
 
-#### Developer
+Reviewing: Đang đợi review
 
-- Task từ DL sẽ phân chia cho các thành viên Developers tương ứng.
-- Sau khi nhận task về, Developer chuyển trạng thái từ Open sang Analysis, điền các thông tin: Phân tích hướng thực thi giải quyêt. Gắng thời gian bỏ ra để phân tích.
-- Chuyển sang Revewing và gán cho Leader, hoặc thành viên khác xác nhận.
-- Sau khi xác nhận cần ước lượng thời gian phát triển. Chuyển sang In progress để bắt đầu phát triển.
-- Cộng dồn thời gian phát triển thực tế vào task.
-- Sau khi hoàn thành báo cáo trong pull request, chuyển trạng thái về Reviewing.
+Merged: Đã được merged
 
-#### Developer leader
+Work: đã deploy lên work
 
-- Review xác nhận hướng giải quyết. Chuyển sang Open
-- Review xác nhận và Merged task. Chuyển sang Merged
-- Deploy các task có gắn mode tương ứng. Riêng mode Merged Testing ở local
+Testing: Chờ test
 
-#### Quanlity assurance
+Staging: đã deploy lên staging
 
-- Nhận các task ở mode Merged để trao đổi cùng leader viết thành test-case
-- Thực hiện test và re-open, viết báo cáo cho task đó nếu có lỗi.
-- Tạo task mới để báo lỗi.
+Production: đã deploy lên production 
+
+Close: Hoàn thành
