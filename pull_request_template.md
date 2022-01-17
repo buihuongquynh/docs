@@ -1,22 +1,29 @@
-- [ ] Nguyên nhân, lý do
-- [ ] Điều tra
-- [ ] Hướng thay đổi 
-- [ ] Phạm vi ảnh hưởng của thay đổi
-- [ ] Kết quả
-### Loại thay đổi
-Sửa lỗi hoặc thêm/sửa tính năng
+## Báo cáo
 
-#### Nguyên nhân, lý do
-Nguyên nhân gây lỗi hoặc lý do thực hiện thay đổi
+
+### Dành cho thay đổi, thêm mới tính năng
+#### Thay đổi hoặc thêm mới gì
+#### Mô tả hướng thay đổi, li do thay đổi.
+
+### Dành cho sửa lỗi
+
+#### Nguyên nhân
+Nguyên nhân gây lỗi.
 
 #### Điều tra
-Các thay đổi trong quá khứ gây ra lỗi hoặc điều tra các chức năng liên quan đến thay đổi
-
+Các thay đổi trong quá khứ gây ra lỗi hoặc điều tra các chức năng liên quan đến thay đổi.
+Các hiểu nhầm hoặc yêu cầu thay đổi gây ra lỗi.
+Link pull request gây ra lỗi.
 
 #### Hướng thay đổi
+Hướng thực hiện thay đổi
 
-#### Phạm vi ảnh hưởng của thay đổi
-Các hàm và chức năng bị thay đổi
+### Phạm vi can thiệp
+#### Màn hình (page)
+#### Nhóm components
+#### Schema (ItoaJS)
 
-#### Kết quả
+### Kết quả
 Chụp ảnh màn hình, kết quả API
+
+### Lưu ý
