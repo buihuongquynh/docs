@@ -11,3 +11,4 @@ export  const  typeDefs  =  gql`
         getUsers: [User]
         getUser(name: String!): User!
     }`
+    
