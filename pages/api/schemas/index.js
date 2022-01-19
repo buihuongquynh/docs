@@ -12,3 +12,4 @@ export  const  typeDefs  =  gql`
         getUser(name: String!): User!
     }`
     
+
