@@ -11,14 +11,12 @@ const fetcher = (query) =>
     .then((res) => res.json())
     .then((json) => json.data)
 
-export default function Index() {
-  const { data, error } = useSWR('{ getData { data } }', fetcher)
+export default function Index() { 
+if (loading) return null;
+if (error) return `Error! ${error}`;
   console.log(data)
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
-
-  const { users } = data
-
   return (
     <div>
       <ReactMarkdown children={data?.getData.data}/>,
